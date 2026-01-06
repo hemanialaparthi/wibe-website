@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women in Business & Economics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <i class="fas fa-briefcase"></i> WIBE
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link" onclick="scrollToSection('home')">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" onclick="scrollToSection('about')">About</a></li>
+                <li class="nav-item"><a href="#members" class="nav-link" onclick="scrollToSection('members')">Members</a></li>
+                <li class="nav-item"><a href="#events" class="nav-link" onclick="scrollToSection('events')">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Women in Business & Economics</h1>
+            <p>Empowering women through business excellence and economic leadership</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our Club</h2>
+            <div class="about-grid" id="aboutGrid">
+                <!-- About cards will be loaded from about.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <div class="container">
+            <h2>Our Leadership Team</h2>
+            <div class="members-grid" id="membersGrid">
+                <!-- Members will be loaded from members.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="events-grid" id="eventsGrid">
+                <!-- Events will be loaded from events.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Removed -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Women in Business & Economics. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

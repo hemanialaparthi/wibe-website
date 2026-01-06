@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "day": "X",
+      "month": "X",
+      "title": "X",
+      "time": "X",
+      "location": "X",
+      "description": "X"
+    },
+    {
+      "day": "X",
+      "month": "X",
+      "title": "X",
+      "time": "X",
+      "location": "X",
+      "description": "X"
+    },
+    {
+      "day": "X",
+      "month": "X",
+      "title": "X",
+      "time": "X",
+      "location": "X",
+      "description": "X"
+    }
+  ]
+}

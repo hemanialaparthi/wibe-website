@@ -1,0 +1,19 @@
+{
+  "about": [
+    {
+      "icon": "lightbulb",
+      "title": "Our Mission",
+      "description": "Add Here"
+    },
+    {
+      "icon": "handshake",
+      "title": "Networking",
+      "description": "Add here"
+    },
+    {
+      "icon": "chart-line",
+      "title": "Growth",
+      "description": "Add here"
+    }
+  ]
+}
